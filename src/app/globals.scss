@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --green: #1A6643;
+    --pale-yellow: #FBFFDE;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+    }
+}
+
+body {
+}
+
+.main-container {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+/* Typographie */
+.text {
+    color: var(--green);
+    font-size: clamp(0.9rem, 1vw, 1rem);
+    font-family: 'Questrial';
+}
+
+.title {
+    color: var(--green);
+    font-size: clamp(1.5rem, 2vw, 2rem);
+    font-family: 'Quantify';
+
+    &.name {
+        font-size: clamp(4rem, 4vw, 6rem);
+    }
+
+    &.surname {
+        font-size: clamp(3rem, 3vw, 4rem);
+    }
+
+    &.job {
+        font-size: clamp(2rem, 2vw, 3rem);
+    }
+}
+
+/* Font family */
+@font-face {
+    font-family: 'Quantify';
+    src: url('/fonts/Quantify.ttf');
+}
+
+@font-face {
+    font-family: 'Questrial';
+    src: url('/fonts/Questrial-Regular.ttf');
+}
