@@ -38,17 +38,18 @@ body {
     color: var(--green);
     font-size: clamp(1.8rem, 2.5vw, 2.5rem);
     /*font-size: clamp(1.5rem, 2.0vw, 2.0rem);*/
-    line-height: clamp(1.5rem, 2vw, 2rem);
     font-family: 'Quantify';
 
     &.name {
         font-size: clamp(6rem, 8vw, 8rem);
         line-height: clamp(6rem, 8vw, 8rem);
     }
-
     &.surname {
         font-size: clamp(4.1rem, 5.4vw, 5.4rem);
         line-height: clamp(4.5rem, 6vw, 6rem);
+    }
+    &.button-title {
+        font-size: clamp(1.35rem, 1.8vw, 1.8rem);
     }
 
     &.title-white {

@@ -8,7 +8,7 @@ export default function Intro() {
             <div className="flex-col mr-12">
                 <h1 className="title name"> JEREMIE </h1>
                 <h1 className="title surname ml-6"> PARANT </h1>
-                <h1 className="title job text-right mt-2"> DEVELOPPEUR WEB </h1>
+                <h1 className="title job text-right"> DEVELOPPEUR WEB </h1>
             </div>
             <div className="flex-col ml-12">
                 <Image src="/img/jeremie-profil.jpg" alt="Portrait de Jérémie Parant, développeur web" width={250} height={250} className={styles.profileImg}></Image>
