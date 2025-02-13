@@ -44,11 +44,17 @@ body {
         font-size: clamp(6rem, 8vw, 8rem);
         line-height: clamp(6rem, 8vw, 8rem);
     }
+
     &.surname {
         font-size: clamp(4.1rem, 5.4vw, 5.4rem);
         line-height: clamp(4.5rem, 6vw, 6rem);
     }
+
     &.button-title {
+        font-size: clamp(1.35rem, 1.8vw, 1.8rem);
+    }
+
+    &.sub-title {
         font-size: clamp(1.35rem, 1.8vw, 1.8rem);
     }
 
