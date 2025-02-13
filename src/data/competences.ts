@@ -6,8 +6,8 @@ export const BackEndSkills = [
     { name: ".NET", img: "/img/dotnet.svg" },
     { name: "Symfony", img: "/img/symfony.svg" },
     { name: "SQL", img: "/img/sql.svg" },
-    { name: "SQL Server", img: "/img/sqlserver.svg" },
 ];
+//{ name: "SQL Server", img: "/img/sqlserver.svg" },
 
 export const FrontEndSkills = [
     { name: "HTML", img: "/img/html.svg" },
@@ -17,14 +17,14 @@ export const FrontEndSkills = [
     { name: "Angular", img: "/img/angular.svg" },
     { name: "Next.js", img: "/img/nextjs.svg" },
     { name: "Blazor", img: "/img/blazor.svg" },
-    { name: "React", img: "/img/react.svg" },
-    { name: "Tailwind CSS", img: "/img/tailwind.svg" },
 ];
+//{ name: "React", img: "/img/react.svg" },
+//{ name: "Tailwind", img: "/img/tailwind.svg" },
 
 export const OtherSkills = [
     { name: "GitHub", img: "/img/github.svg" },
     { name: "GitLab", img: "/img/gitlab.svg" },
-    { name: "VirtualBox", img: "/img/virtualbox.svg" },
+    { name: "VirtualBox", img: "/img/virtualbox.png" },
     { name: "Docker", img: "/img/docker.svg" },
     { name: "Jenkins", img: "/img/jenkins.svg" },
     { name: "Jira", img: "/img/jira.svg" },

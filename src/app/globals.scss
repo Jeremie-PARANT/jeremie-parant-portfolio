@@ -9,6 +9,10 @@
     --black: #000000;
 }
 
+.box-shadow {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.30);
+}
+
 @media (prefers-color-scheme: dark) {
     :root {
     }
@@ -56,6 +60,10 @@ body {
 
     &.sub-title {
         font-size: clamp(1.35rem, 1.8vw, 1.8rem);
+    }
+
+    &.small-title {
+        font-size: clamp(1rem, 1.1vw, 1.2rem);
     }
 
     &.title-white {
