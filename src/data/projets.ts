@@ -1,17 +1,17 @@
 export const EyeCare =
 {
-    img: "Mon image",
+    img: "/img/temp.jpg",
     title: "EyeCare",
-    text: "Lorem Ipsum",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
     github: "link git",
     link: "https://eye-care-project.netlify.app/",
 }
 
 export const Webdocumentaire =
 {
-    img: "Mon image",
+    img: "/img/temp.jpg",
     title: "Webdocumentaire",
-    text: "Lorem Ipsum",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
     github: "link git",
     link: "https://hugo-bajoue.alwaysdata.net/components/Webdocumentaire-main/index.html",
 }

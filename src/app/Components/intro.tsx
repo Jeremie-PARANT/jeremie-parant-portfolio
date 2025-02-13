@@ -1,5 +1,4 @@
 import styles from './intro.module.scss';
-
 import Image from "next/image";
 
 export default function Intro() {
@@ -11,7 +10,7 @@ export default function Intro() {
                 <h1 className="title job text-right"> DEVELOPPEUR WEB </h1>
             </div>
             <div className="flex-col ml-12">
-                <Image src="/img/jeremie-profil.jpg" alt="Portrait de Jérémie Parant, développeur web" width={250} height={250} className={styles.profileImg}></Image>
+                <Image src="/img/jeremie-profil.jpg" alt="Portrait de Jérémie Parant, développeur web" width={300} height={300} className={styles.profileImg}></Image>
             </div>
         </section>
     );

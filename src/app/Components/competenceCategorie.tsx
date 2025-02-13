@@ -1,5 +1,4 @@
 import styles from './competenceCategorie.module.scss';
-
 import Image from "next/image";
 
 type CompetenceCategorieProps = {
@@ -18,9 +17,9 @@ export default function CompetenceCategorie({ title, competences }: CompetenceCa
                         <Image
                             src={competence.img}
                             alt={competence.name}
-                            width={60}
-                            height={60}
-                            className="h-10 w-auto object-contain"
+                            width={70}
+                            height={70}
+                            className="h-12 w-auto object-contain"
                         />
                         <div className="title small-title text-center">{competence.name}</div>
                     </div>

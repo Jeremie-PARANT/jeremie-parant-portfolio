@@ -13,6 +13,14 @@
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.30);
 }
 
+.box-shadow-strong {
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.40);
+}
+
+.bg-pale-yellow {
+    background-color: var(--pale-yellow);
+}
+
 @media (prefers-color-scheme: dark) {
     :root {
     }
@@ -29,7 +37,7 @@ body {
 /* Typographie */
 .text {
     color: var(--green);
-    font-size: clamp(0.9rem, 1vw, 1.1rem);
+    font-size: clamp(1.1rem, 1.2vw, 1.3rem);
     font-family: 'Questrial';
     text-align: justify;
 
@@ -63,7 +71,7 @@ body {
     }
 
     &.small-title {
-        font-size: clamp(1rem, 1.1vw, 1.2rem);
+        font-size: clamp(1.1rem, 1.2vw, 1.4rem);
     }
 
     &.title-white {
