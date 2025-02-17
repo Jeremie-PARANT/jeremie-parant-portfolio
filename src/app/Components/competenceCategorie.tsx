@@ -13,7 +13,7 @@ export default function CompetenceCategorie({ title, competences }: CompetenceCa
             <h3 className="title sub-title mb-2">{title}</h3>
             <div className={`${styles["custom-skills-category"]} box-shadow flex flex-wrap justify-center gap-8`}>
                 {competences.map((competence, index) => (
-                    <div key={index} className="flex flex-col items-center">
+                    <div key={index} className="flex flex-col items-center duration-300 hover:scale-110">
                         <Image
                             src={competence.img}
                             alt={competence.name}

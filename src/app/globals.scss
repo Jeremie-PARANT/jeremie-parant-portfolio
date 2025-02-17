@@ -10,11 +10,11 @@
 }
 
 .box-shadow {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.30);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
 }
 
 .box-shadow-strong {
-    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.40);
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.36);
 }
 
 .bg-pale-yellow {
@@ -27,6 +27,7 @@
 }
 
 body {
+    overflow-x: hidden;
 }
 
 .main-container {
@@ -63,7 +64,7 @@ body {
     }
 
     &.button-title {
-        font-size: clamp(1.35rem, 1.8vw, 1.8rem);
+        font-size: clamp(1.30rem, 1.7vw, 1.7rem);
     }
 
     &.sub-title {
