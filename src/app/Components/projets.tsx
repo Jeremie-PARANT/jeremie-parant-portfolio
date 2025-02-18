@@ -1,4 +1,4 @@
-import styles from './projet.module.scss';
+import styles from './projets.module.scss';
 import { EyeCare, Webdocumentaire } from "@/data/projets";
 import Projet from "./projet";
 import Image from "next/image";
@@ -15,7 +15,7 @@ export default function Projets() {
                     className="w-full h-full"
                 />
             </div>
-            <h2 className="title text-center mb-8"> Mes projets </h2>
+            <h2 className="title text-center mb-8 2xl:mb-12"> Mes projets </h2>
             <div className="flex justify-center gap-12">
                 <Projet projet={EyeCare} />
                 <Projet projet={Webdocumentaire} />

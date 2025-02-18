@@ -1,4 +1,4 @@
-﻿//import styles from './projet.module.scss';
+﻿import styles from './projet.module.scss';
 import Image from "next/image";
 
 type ProjetProps = {
@@ -7,7 +7,7 @@ type ProjetProps = {
 
 export default function Projet({ projet }: ProjetProps) {
     return (
-        <div className="w-72 text-center box-shadow-strong bg-pale-yellow rounded-2xl flex flex-col">
+        <div className={`${styles["card"]} text-center box-shadow-strong bg-pale-yellow rounded-2xl flex flex-col`}>
             <div className="overflow-hidden rounded-2xl grayscale-[20%] p-1">
                 <Image
                     src={projet.img}
