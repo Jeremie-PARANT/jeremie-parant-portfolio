@@ -1,4 +1,5 @@
 import Competence from "./Components/competence";
+import Formation from "./Components/formation";
 import Intro from "./Components/intro";
 import Presentation from "./Components/presentation";
 import Projets from "./Components/projets";
@@ -10,6 +11,7 @@ export default function Home() {
             <Presentation />
             <Competence />
             <Projets />
+            <Formation />
         </main>
     );
 }

@@ -7,7 +7,7 @@ type ProjetProps = {
 
 export default function Projet({ projet }: ProjetProps) {
     return (
-        <div className={`${styles["card"]} text-center box-shadow-strong bg-pale-yellow rounded-2xl flex flex-col`}>
+        <article className={`${styles["card"]} text-center box-shadow-strong bg-pale-yellow rounded-2xl flex flex-col`}>
             <div className="overflow-hidden rounded-2xl grayscale-[20%] p-1">
                 <Image
                     src={projet.img}
@@ -19,7 +19,7 @@ export default function Projet({ projet }: ProjetProps) {
             </div>
             <div className="px-6 grow">
                 <h3 className="title sub-title text-center mt-2 mb-1">{projet.title}</h3>
-                <div className="text">{projet.text}</div>
+                <p className="text">{projet.text}</p>
             </div>
             <div className="flex justify-end gap-x-3 px-6 pb-6 pt-4">
                 <a href={projet.link} target="_blank">
@@ -29,6 +29,6 @@ export default function Projet({ projet }: ProjetProps) {
                     <Image src="/img/github.svg" alt={projet.title} width={22} height={22} className="duration-300 hover:scale-125" />
                 </a>
             </div>
-        </div>
+        </article>
     );
 }
