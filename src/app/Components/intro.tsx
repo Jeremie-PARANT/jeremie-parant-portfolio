@@ -8,7 +8,8 @@ export default function Intro() {
                 <Image
                     src="/img/polygonal-bg.png"
                     alt="Background Polygonal"
-                    fill
+                    width={1920}
+                    height={1080}
                     style={{ objectFit: "cover" }}
                     className="w-full h-full"
                 />

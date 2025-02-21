@@ -45,6 +45,10 @@ body {
     &.text-white {
         color: white;
     }
+
+    &.big-line {
+        line-height: clamp(1.9rem, 2vw, 2.1rem);
+    }
 }
 
 .title {
