@@ -8,14 +8,16 @@ import Veille from "./Components/veille";
 
 export default function Home() {
     return (
-        <main className="flex flex-col main-container">
-            <Intro />
-            <Presentation />
-            <Competence />
-            <Projets />
-            <Formation />
-            <Veille />
+        <>
+            <main className="flex flex-col main-container">
+                <Intro />
+                <Presentation />
+                <Competence />
+                <Projets />
+                <Formation />
+                <Veille />
+            </main>
             <Footer />
-        </main>
+        </>
     );
 }

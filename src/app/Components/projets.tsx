@@ -17,7 +17,7 @@ export default function Projets() {
                 />
             </div>
             <h2 className="title text-center mb-8 2xl:mb-12"> Mes projets </h2>
-            <div className="flex justify-center gap-12">
+            <div className="flex justify-center gap-12 2xl:gap-16">
                 <Projet projet={EyeCare} />
                 <Projet projet={Webdocumentaire} />
             </div>
