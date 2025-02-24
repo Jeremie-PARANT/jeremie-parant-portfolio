@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --green: #1A6643;
+    --pale-yellow: #FBFFDE;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+.box-shadow {
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.box-shadow-strong {
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.36);
+}
+
+.bg-pale-yellow {
+    background-color: var(--pale-yellow);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+    }
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.main-container {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+/* Typographie */
+.text {
+    color: var(--green);
+    font-size: clamp(1.1rem, 1.2vw, 1.3rem);
+    font-family: 'Questrial';
+    text-align: justify;
+
+    &.text-white {
+        color: white;
+    }
+
+    &.big-line {
+        line-height: clamp(1.9rem, 2vw, 2.1rem);
+    }
+}
+
+.title {
+    color: var(--green);
+    font-size: clamp(1.8rem, 2.5vw, 2.5rem);
+    /*font-size: clamp(1.5rem, 2.0vw, 2.0rem);*/
+    font-family: 'Quantify';
+
+    &.name {
+        font-size: clamp(6rem, 8vw, 8rem);
+        line-height: clamp(6rem, 8vw, 8rem);
+    }
+
+    &.surname {
+        font-size: clamp(4.1rem, 5.4vw, 5.4rem);
+        line-height: clamp(4.5rem, 6vw, 6rem);
+    }
+
+    &.button-title {
+        font-size: clamp(1.30rem, 1.7vw, 1.7rem);
+    }
+
+    &.sub-title {
+        font-size: clamp(1.35rem, 1.8vw, 1.8rem);
+    }
+
+    &.small-title {
+        font-size: clamp(1.1rem, 1.2vw, 1.4rem);
+    }
+
+    &.title-white {
+        color: white;
+    }
+}
+
+/* Font family */
+@font-face {
+    font-family: 'Quantify';
+    src: url('/fonts/Quantify.ttf');
+}
+
+@font-face {
+    font-family: 'Questrial';
+    src: url('/fonts/Questrial-Regular.ttf');
+}
