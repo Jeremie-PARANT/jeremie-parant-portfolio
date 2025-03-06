@@ -15,3 +15,12 @@ export const Webdocumentaire =
     github: "https://github.com/Raphi04/Webdocumentaire",
     link: "https://hugo-bajoue.alwaysdata.net/components/Webdocumentaire-main/index.html",
 }
+
+export const CommandeSushi =
+{
+    img: "/img/commande-sushi-project.png",
+    title: "Commande de sushi",
+    text: "Application web de réservation de sushis avec gestion des commandes.",
+    github: "https://github.com/RubenDavidAbreu/nagashima",
+    link: "",
+}

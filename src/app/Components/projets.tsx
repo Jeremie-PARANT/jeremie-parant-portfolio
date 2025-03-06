@@ -1,5 +1,5 @@
 import styles from './projets.module.scss';
-import { EyeCare, Webdocumentaire } from "@/data/projets";
+import { EyeCare, Webdocumentaire, CommandeSushi } from "@/data/projets";
 import Projet from "./projet";
 import Image from "next/image";
 
@@ -20,6 +20,7 @@ export default function Projets() {
             <div className="flex justify-center gap-12 2xl:gap-16">
                 <Projet projet={EyeCare} />
                 <Projet projet={Webdocumentaire} />
+                <Projet projet={CommandeSushi} />
             </div>
         </section>
     );

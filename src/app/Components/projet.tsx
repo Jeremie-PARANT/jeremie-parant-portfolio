@@ -22,9 +22,12 @@ export default function Projet({ projet }: ProjetProps) {
                 <p className="text">{projet.text}</p>
             </div>
             <div className="flex justify-end gap-x-3 px-6 pb-6 pt-4">
-                <a href={projet.link} target="_blank">
-                    <Image src="/img/internet.svg" alt={projet.title} width={22} height={22} className="duration-300 hover:scale-125" />
-                </a>
+                {projet.link &&
+                    <a href={projet.link} target="_blank">
+                        <Image src="/img/internet.svg" alt={projet.title} width={22} height={22} className="duration-300 hover:scale-125" />
+                    </a>
+                }
+
                 <a href={projet.github} target="_blank">
                     <Image src="/img/github.svg" alt={projet.title} width={22} height={22} className="duration-300 hover:scale-125" />
                 </a>
